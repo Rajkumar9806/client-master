@@ -16,7 +16,7 @@ const navItem={
 const NavBar = () => {
   const openWhatsApp = () => {
     var phoneNumber = '8861505799';
-    var defaultMessage = encodeURIComponent('Welcome to Swathi Vaibhav! 🌟 How can we assist you today?');
+    var defaultMessage = encodeURIComponent('Hello Swathi Vaibhav,\nCan you please help me with more information about');
     var url = `https://wa.me/${phoneNumber}?text=${defaultMessage}&create=true`;
     window.open(url);
   }
