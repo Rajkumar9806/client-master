@@ -1,0 +1,72 @@
+.logo2 {
+    position:relative;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+.homelogo2{
+    position: absolute;
+    background-color: #0c510c;
+    border-radius:0px 40px 0px 50px;
+    top:280px;
+    left:650px;
+    right:10px;
+    text-align: center;
+  }
+  
+  .home3{
+    font-size:1rem;
+    color:hsl(0, 2%, 45%);
+    text-transform:uppercase;
+}
+.video {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  background-color: black;
+}
+
+.text {
+  position: absolute;
+  bottom: -2700px;
+}
+
+.party{
+  background-color:#0c510c;
+  height:300px;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+  @media only screen and (min-width: 650px) and (max-width: 950px) {
+    .homelogo2{
+        position: absolute;
+        background-color: #0c510c;
+        border-radius:0px 40px 0px 50px;
+        top:150px;
+        left:50px;
+        text-align: center;
+      }
+      .logo2 {
+        position:relative;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+      }
+  }
+  @media only screen and (max-width: 661px){
+    .homelogo2{
+   position:relative;
+   top:0px;
+   left:0px;
+
+
+    }
+    
+  }
