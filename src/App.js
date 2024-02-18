@@ -4,6 +4,7 @@ import Navbar from './navBar';
 import Home from './home';
 import Contact from './contactUs';
 import Hotels from './hotels';
+import Services from './Services';
 import About from './aboutUs';
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/home" element={<Home/>}/>
           <Route path="/hotel" element={<Hotels />} />
           <Route path="/about-us" element={<About />} />
+          <Route path="/services" element={<Services/>}/>
         </Routes>
 
         <Contact />

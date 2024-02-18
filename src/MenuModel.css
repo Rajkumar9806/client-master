@@ -1,0 +1,15 @@
+.menu-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .menu-image {
+    width: calc(33.33% - 10px); /* Adjust the width of each image as needed */
+    margin-bottom: 20px;
+  }
+  
+  .menu-image:last-child {
+    margin-right: 0;
+  }
+  

@@ -3,6 +3,7 @@ import insta from '../src/image/insta.jpg';
 import logo from '../src/image/logo.png';
 import whats from '../src/image/whatsapp.png';
 
+
 import './navBar.css';
 import { Outlet, Link } from "react-router-dom";
 
@@ -33,11 +34,14 @@ const NavBar = () => {
             <li class="nav-item">
               <Link class="nav-link" to="/home">HOME</Link>
             </li> 
-            <li class="nav-item ">
+            {/* <li class="nav-item ">
               <Link class="nav-link" to="/hotel">HOTELS</Link>
-            </li>
+            </li> */}
             <li class="nav-item ">
               <a class="nav-link" href="/about-us">ABOUTUS</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="/services">Services</a>
             </li>
           </ul>
         </div>
