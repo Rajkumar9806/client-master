@@ -7,10 +7,10 @@ import fineDineImage from '../src/image/hotel8.png';
 import cateringService from './image/hotel6.png';
 import cateringService2 from './image/hotel7.png';
 import cateringService1 from './image/hotel10.png';
-import { Widget } from 'react-chat-widget';
-import 'react-chat-widget/lib/styles.css';
+// import { Widget } from 'react-chat-widget';
+// import 'react-chat-widget/lib/styles.css';
 const Services = () => {
-    const [widgetMessage, setWidgetMessage] = useState('');
+    // const [widgetMessage, setWidgetMessage] = useState('');
 
     const handleWhatsAppClick = (message) => {
         const phoneNumber = '8861505799';
@@ -27,12 +27,12 @@ const Services = () => {
         handleWhatsAppClick(message);
       };
 
-      const handleNewUserMessage = (newMessage) => {
-        setWidgetMessage(newMessage); // Store the new message in state
-        // Handle the new message as needed
-        // For example, you can call handleWhatsAppClick with the new message
-        handleWhatsAppClick(newMessage);
-      };
+    //   const handleNewUserMessage = (newMessage) => {
+    //     setWidgetMessage(newMessage); // Store the new message in state
+    //     // Handle the new message as needed
+    //     // For example, you can call handleWhatsAppClick with the new message
+    //     handleWhatsAppClick(newMessage);
+    //   };
     
   return (
     <div className="container" style={{ marginTop: '80px' }}>
@@ -156,12 +156,12 @@ const Services = () => {
         </div>
       </div>
      {/* WhatsApp Widget */}
-     <Widget
+     {/* <Widget
         title="WhatsApp Chat"
         subtitle="Need assistance? Chat with us on WhatsApp."
         senderPlaceHolder="Type a message..."
         handleNewUserMessage={handleNewUserMessage}
-      />
+      /> */}
     </div>
   );
 }

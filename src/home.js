@@ -13,8 +13,8 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import MenuModal from './MenuModal';
 import { Card, Row, Col,Button  } from 'react-bootstrap';
-import { Widget } from 'react-chat-widget';
-import 'react-chat-widget/lib/styles.css';
+// import { Widget } from 'react-chat-widget';
+// import 'react-chat-widget/lib/styles.css';
 
 
 const Home  = () => {
@@ -184,12 +184,12 @@ Connect with us …</p>
 
       {/* Menu Modal */}
       <MenuModal show={showMenuModal} onHide={() => setShowMenuModal(false)} />
-      <Widget
+      {/* <Widget
         title="WhatsApp Chat"
         subtitle="Need assistance? Chat with us on WhatsApp."
         senderPlaceHolder="Type a message..."
         handleNewUserMessage={handleNewUserMessage}
-      />
+      /> */}
 </div>
 
   )
